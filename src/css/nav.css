@@ -1,0 +1,65 @@
+	body{
+			background-color: #F8F8F8;
+		}
+		a:hover{
+			text-decoration: none;
+			color: #CD0000;
+		}
+		
+		/* 父标签hover悬浮，子标签显示 */
+		.dropdown:hover .dropdown-menu{
+			display: block;
+		}
+		.input-group{
+			margin-bottom: 20px;
+			width: 400px;
+		}
+		/* 导航栏左边 */
+		.navbar-nav{
+			margin-left: 120px;
+		}
+		.navbar-right{
+			margin-right: 120px;
+		}
+		nav{
+			position: fixed;
+			top: 0;
+			/* box-shadow: 10px 0 1px darkgrey; */
+		}
+		.nav>li{
+			font-size: 16px;
+		}
+		.navbar-default{
+			background-color: white;
+		}
+		.navbar{
+			border-top: 0;
+		}
+		/* 搜索 */
+		.color{
+			background-color: #F8F8F8;
+			color: #777;
+		}
+		li:hover{
+			background-color: #F8F8F8;
+		}
+		.dropdown-toggle>img{
+			height: 28px;
+			width: 28px;
+			border-radius: 50%;
+		}
+		.dropdown>.dropdown-menu{
+			width: 100px;
+		}
+		.dropdown-menu{
+			width: 12px;
+			text-align: center;
+		}
+			
+		.dropdown-menu>li{
+			margin: 6px 10px ;
+			/* width: 10px; */
+		}
+		.layui-icon{
+			margin-right: 5px;
+		}
